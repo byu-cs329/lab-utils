@@ -12,8 +12,8 @@ import org.eclipse.jdt.core.dom.VariableDeclarationStatement;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class NodePropertiesUtils {
-  static final Logger log = LoggerFactory.getLogger(NodePropertiesUtils.class);
+public class AstNodePropertiesUtils {
+  static final Logger log = LoggerFactory.getLogger(AstNodePropertiesUtils.class);
 
   public static String getName(TypeDeclaration classDeclaration) {
     return getName(classDeclaration.getName());
@@ -40,7 +40,7 @@ public class NodePropertiesUtils {
   }
 
   private static String getName(Object fragments) {
-    VariableDeclaration declaration = NodePropertiesUtils.getFragment(fragments);
+    VariableDeclaration declaration = AstNodePropertiesUtils.getFragment(fragments);
     return getName(declaration.getName());
   }
 
