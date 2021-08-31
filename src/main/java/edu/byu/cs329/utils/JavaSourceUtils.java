@@ -1,6 +1,5 @@
-package edu.byu.cs329.utils.ast;
+package edu.byu.cs329.utils;
 
-import edu.byu.cs329.utils.ExceptionUtils;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;

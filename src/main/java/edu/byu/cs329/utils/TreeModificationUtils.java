@@ -1,4 +1,4 @@
-package edu.byu.cs329.utils.ast;
+package edu.byu.cs329.utils;
 
 import java.util.List;
 import java.util.Objects;

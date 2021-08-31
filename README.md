@@ -40,7 +40,7 @@ This contains code that can throw an exception when an unexpected behavior occur
 Many tests you write for your lab assignments would require tests in the format of a Java source file. 
 This class contains the boilerplate code to read in and compile a Java source file to an ASTNode.
 
-### NodePropertiesUtils.java
+### AstNodePropertiesUtils.java
 
 You will come to find that you would need to get a common property from an ASTNode (such as a name). 
 Reference the starter code to see how these methods are used.
